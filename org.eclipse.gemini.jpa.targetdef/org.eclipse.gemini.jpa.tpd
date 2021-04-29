@@ -1,0 +1,18 @@
+target "gemini" with source allEnvironments
+
+location "http://ftp.halifax.rwth-aachen.de/eclipse/releases/2021-03/" {
+	org.eclipse.equinox.sdk.feature.group
+}
+
+location "http://download.eclipse.org/rt/eclipselink/updates/" {
+	org.eclipse.persistence.jpa.feature.group
+}
+
+location "http://download.eclipse.org/gemini/updates/dbaccess/1.1.0/" {
+	org.eclipse.gemini.dbaccess.feature.feature.group
+}
+
+location "https://download.eclipse.org/tools/orbit/downloads/drops/R20210223232630/repository/" {
+	osgi.enterprise
+	
+}
