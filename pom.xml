@@ -36,7 +36,7 @@ To update poms, manifests, and feature.xml files
 	<name>Gemini JPA Parent</name>
 
 	<properties>
-		<tycho-version>0.14.0</tycho-version>
+		<tycho-version>2.3.0</tycho-version>
 		<next-release>1.2.0-SNAPSHOT</next-release>
 	</properties>
 
